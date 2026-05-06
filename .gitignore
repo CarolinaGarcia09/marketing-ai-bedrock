@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+.aws-sam/
+cdk.out/
+
+# Node
+node_modules/
+dist/
+.env
+*.local
+
+# AWS
+.env.local
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
