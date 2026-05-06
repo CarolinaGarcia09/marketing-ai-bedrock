@@ -1,4 +1,4 @@
-# 🎨 Marketing AI — Generación de Imágenes y Edición de Contenido con Amazon Bedrock
+# Marketing AI — Generación de Imágenes y Edición de Contenido con Amazon Bedrock
 
 Aplicación web de IA generativa para equipos creativos de marketing, desarrollada sobre AWS con Amazon Bedrock como capa de acceso unificada a modelos fundacionales.
 
@@ -23,7 +23,7 @@ Usuario → React SPA (S3 + CloudFront)
   (imágenes)         (historial)
 ```
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 | Capa | Servicio |
 |------|----------|
@@ -40,7 +40,7 @@ Usuario → React SPA (S3 + CloudFront)
 
 ---
 
-## 📁 Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```
 marketing-ai-bedrock/
@@ -67,7 +67,7 @@ marketing-ai-bedrock/
 
 ---
 
-## 🚀 Despliegue
+##  Despliegue
 
 ### Pre-requisitos
 
@@ -103,7 +103,7 @@ npm run build     # Build para producción
 
 ---
 
-## 🔐 Roles de Usuario
+##  Roles de Usuario
 
 | Rol | Permisos |
 |-----|----------|
@@ -113,7 +113,7 @@ npm run build     # Build para producción
 
 ---
 
-## 💰 Costo Estimado Mensual
+##  Costo Estimado Mensual
 
 Basado en 1,000 imágenes/mes y 500,000 tokens de texto/mes:
 
@@ -131,7 +131,7 @@ Basado en 1,000 imágenes/mes y 500,000 tokens de texto/mes:
 
 ---
 
-## 🔒 Seguridad (Defensa en Profundidad)
+##  Seguridad (Defensa en Profundidad)
 
 1. **Red**: Todo el tráfico por HTTPS, HTTP rechazado en API Gateway
 2. **Autenticación**: JWT validado por Cognito antes de llegar a Lambda
@@ -143,7 +143,7 @@ Basado en 1,000 imágenes/mes y 500,000 tokens de texto/mes:
 
 ---
 
-## ✅ Consideraciones Éticas
+##  Consideraciones Éticas
 
 - Todas las imágenes generadas llevan metadato `ai_generated: true` y marca de agua
 - Los prompts y resultados no se usan para reentrenar modelos (acuerdo contractual con AWS)
