@@ -30,7 +30,7 @@ git push -u origin main
 ```bash
 # Nunca usar credenciales root
 aws configure
-# AWS Access Key ID: [de un usuario IAM de desarrollo]
+# AWS Access Key ID: 2950-1317-3387
 # AWS Secret Access Key: [clave secreta]
 # Default region: us-east-1
 # Default output format: json
@@ -51,7 +51,7 @@ source .venv/bin/activate          # Linux/Mac
 pip install -r requirements.txt
 
 # Bootstrap CDK (solo la primera vez por cuenta/región)
-cdk bootstrap aws://TU_ACCOUNT_ID/us-east-1
+cdk bootstrap aws://2950-1317-3387/us-east-1
 
 # Revisar qué se va a crear
 cdk diff
@@ -74,7 +74,7 @@ cdk deploy
 # Crear usuario diseñador
 aws cognito-idp admin-create-user \
   --user-pool-id TU_USER_POOL_ID \
-  --username diseñador@empresa.com \
+  --username lricaurt@bancolombia.com \
   --temporary-password Temp1234! \
   --user-attributes Name=email,Value=diseñador@empresa.com
 
